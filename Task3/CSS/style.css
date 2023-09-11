@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+body{
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 25px;
+     line-height: 30px;
+}
+
+header{
+     width: 90%;
+     margin: 0 auto;
+}
+
+.btn-primary{
+     background: #05427B;
+     border-radius: 5px;
+}
+
+.sidebar{
+     font-size: 40px;
+     line-height: 48px;
+     height: 700px;
+     background: #FFCCCC;
+     border: 10px solid white;
+
+}
+
+.right{
+     height: 700px;
+     background: #8482D1;
+}
+
+.sec{
+     height: 350px;
+     border: 10px solid white;   
+}
+
+.footer{
+     font-size: 32px;
+     line-height: 39px;
+     margin-top: 10px;
+     background: #735A43;
+     height: 150px;
+     color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .sidebar,.footer {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@500&display=swap');
+
+body{
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 46px;
+     line-height: 46px;
+}
+
+.color{
+     background: radial-gradient(64.02% 64.02% at 0% 0%, #FFE9C9 0%, rgba(217, 217, 217, 0) 100%)
+}
+
+.sec1{
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 24px;
+     letter-spacing: 0.005em;
+     color: #2F80ED;
+}
+
+h1{
+     font-weight: 700;
+     font-size: 46px;
+     line-height: 46px;
+     max-width: 80%;
+}
+
+p{
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 22px;
+     color: #828282;
+
+}
+
+.sec2{
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 32px;
+     line-height: 40px;
+     text-transform: uppercase;
+
+}
+
+.btn-outline-primary{
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 24px;
+     letter-spacing: -0.5px;
+     text-transform: uppercase;
+     color: #0066FF;
+     padding: 15px 30px;
+     border-radius: 10px;
+}
+
+.scroll{
+     height: 675px;
+     overflow: auto;
+}
+
+::-webkit-scrollbar {
+     width: 4px;
+     background-color: rgb(255, 255, 255);
+     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+   }
+::-webkit-scrollbar-thumb{
+     height: 100px;
+     background-color: #474747;
+}
+
+.sec3{
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 24px;
+     text-transform: uppercase;
+}
+
+.sec4{
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 22px;
+     color: #828282;
+}
+
+.card{
+    background: radial-gradient(64.02% 64.02% at 37.89% 35.98%, #FFE9C9 0%, rgba(217, 217, 217, 0) 100%);
+     border: none;
+}
+.sec5{
+     font-weight: 600;
+     font-size: 24px;
+     line-height: 160%;
+     color: #FF852D;
+}
+.sec6{
+     font-weight: 400;
+     font-size: 32px;
+     line-height: 140%;
+     text-align: center;
+     text-transform: uppercase;
+     color: #000054;
+}
+
+form{
+     width: 70%;
+     margin: 50px auto;
+}
+
+.form-control{
+     background: #dddddd;
+}
+
+textarea{
+     resize: none;
+}
+h5{
+     font-weight: 600;
+     font-size: 20px;
+     line-height: 32px;
+     color: #252B42;
+}
+
+footer{
+     background: #dddddd;
+}
+
+.f-item{
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 20px;
+     letter-spacing: 0.2px;
+     color: #737373;
+}
